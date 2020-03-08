@@ -1,3 +1,6 @@
+#Simple program that generates all 4 digit,6 digit, and 8 digit pin numbers as well 
+#as their md5,sha1,sha256,sha512 hashes
+#Warning, will create massive CSV file and will eat resources
 import hashlib
 import csv
 with open('super_pin_rainbow_table.csv', "w+") as outfile:

